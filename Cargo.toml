@@ -1,0 +1,17 @@
+[package]
+name = "rustchain"
+version = "0.1.0"
+authors = ["reisman <30975669+reisman@users.noreply.github.com>"]
+edition = "2018"
+
+[lib]
+name = "rustchainlib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rustchain"
+path = "src/main.rs"
+
+[dependencies]
+hex = "0.3.2"
+crypto-hash = "0.3.3"
